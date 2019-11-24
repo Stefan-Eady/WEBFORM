@@ -149,13 +149,13 @@ Partial Public Class Apply
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
-    '''Label6 control.
+    '''Address control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Address As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Label7 control.
