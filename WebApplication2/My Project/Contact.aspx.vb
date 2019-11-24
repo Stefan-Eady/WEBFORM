@@ -5,4 +5,25 @@
 
     End Sub
 
+
+    Public Sub ShowMessageBox(ByVal message As String, ByRef pPage As System.Web.UI.Page)
+        If Not (pPage.IsStartupScriptRegistered("doMessage")) Then
+            Dim buffScriptString As String
+            buffScriptString = "<script language='javascript'>" + vbCrLf +
+             "<!-- " + vbCrLf +
+             "alert(""" + message + """); " + vbCrLf +
+             "--> " + vbCrLf +
+             "</script>"
+            pPage.RegisterStartupScript("doMessage", buffScriptString)
+        End If
+    End Sub
+
+    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        If TextBox7.Text IsNot "" And TextBox8.Text IsNot "" Then
+            ShowMessageBox("Thanks We Will Be In Touch", Me)
+            Response.Redirect("index.aspx")
+        Else
+            ShowMessageBox("You Must Fill All Feilds", Me)
+        End If
+    End Sub
 End Class
