@@ -20,10 +20,13 @@
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If TextBox2.Text IsNot "" And TextBox1.Text IsNot "" Then
             ShowMessageBox("Login Correct, Welcome", Me)
-            Response.Redirect("index.aspx")
         Else
             ShowMessageBox("You Must Fill All Feilds", Me)
         End If
+    End Sub
+
+    Protected Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+
     End Sub
 
 End Class

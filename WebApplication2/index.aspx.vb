@@ -14,7 +14,7 @@
     End Sub
 
     Protected Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Response.Redirect("Contact.aspx")
+        Response.Redirect("WebApplication2\Contact.aspx")
     End Sub
 
 End Class

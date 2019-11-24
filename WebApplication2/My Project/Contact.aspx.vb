@@ -20,7 +20,6 @@
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If TextBox7.Text IsNot "" And TextBox8.Text IsNot "" Then
             ShowMessageBox("Thanks We Will Be In Touch", Me)
-            Response.Redirect("index.aspx")
         Else
             ShowMessageBox("You Must Fill All Feilds", Me)
         End If
