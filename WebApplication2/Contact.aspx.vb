@@ -5,7 +5,6 @@
 
     End Sub
 
-
     Public Sub ShowMessageBox(ByVal message As String, ByRef pPage As System.Web.UI.Page)
         If Not (pPage.IsStartupScriptRegistered("doMessage")) Then
             Dim buffScriptString As String
@@ -26,4 +25,9 @@
             ShowMessageBox("You Must Fill All Feilds", Me)
         End If
     End Sub
+
+    Protected Sub TextBox7_TextChanged(sender As Object, e As EventArgs) Handles TextBox7.TextChanged
+
+    End Sub
+
 End Class

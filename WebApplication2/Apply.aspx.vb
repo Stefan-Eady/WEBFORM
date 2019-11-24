@@ -4,6 +4,7 @@
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
     End Sub
+
     Public Sub ShowMessageBox(ByVal message As String, ByRef pPage As System.Web.UI.Page)
         If Not (pPage.IsStartupScriptRegistered("doMessage")) Then
             Dim buffScriptString As String
@@ -15,6 +16,7 @@
             pPage.RegisterStartupScript("doMessage", buffScriptString)
         End If
     End Sub
+
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If TextBox5.Text IsNot "" And TextBox7.Text IsNot "" And TextBox8.Text IsNot "" And TextBox9.Text IsNot "" And TextBox10.Text IsNot "" And TextBox11.Text IsNot "" And TextBox12.Text IsNot "" And ListBox1.Text IsNot "" Then
             ShowMessageBox("Thanks We Will Be In Touch", Me)
@@ -24,4 +26,5 @@
             ShowMessageBox("You Must Fill All Feilds", Me)
         End If
     End Sub
+
 End Class
