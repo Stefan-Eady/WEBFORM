@@ -99,6 +99,7 @@
     <Content Include="Login.aspx" />
     <Content Include="My Project\Capture.PNG" />
     <Content Include="My Project\Contact.aspx" />
+    <Content Include="Techtorium-Colour-logo.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

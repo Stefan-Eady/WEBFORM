@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class Apply
-    
+
     '''<summary>
     '''form1 control.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-    
+
     '''<summary>
     '''Panel1 control.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Panel1 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Button2 control.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''TextBox5 control.
     '''</summary>
@@ -48,16 +48,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''TextBox6 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBox6 As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''TextBox7 control.
     '''</summary>
@@ -66,16 +57,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents TextBox7 As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''TextBox8 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents TextBox8 As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''TextBox9 control.
     '''</summary>
@@ -84,7 +66,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents TextBox9 As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''TextBox10 control.
     '''</summary>
@@ -93,7 +75,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents TextBox10 As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''TextBox11 control.
     '''</summary>
@@ -102,25 +84,16 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents TextBox11 As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
-    '''TextBox12 control.
+    '''TextBox13 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox12 As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''ListBox1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ListBox1 As Global.System.Web.UI.WebControls.ListBox
-    
+    Protected WithEvents TextBox13 As Global.System.Web.UI.WebControls.TextBox
+
     '''<summary>
     '''Image1 control.
     '''</summary>
@@ -129,16 +102,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
-    
-    '''<summary>
-    '''Label5 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Label1 control.
     '''</summary>
@@ -147,16 +111,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''Address control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Address As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Label7 control.
     '''</summary>
@@ -165,7 +120,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label7 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Label8 control.
     '''</summary>
@@ -174,7 +129,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label8 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Label9 control.
     '''</summary>
@@ -183,16 +138,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label9 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''Label10 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label10 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Label11 control.
     '''</summary>
@@ -201,7 +147,7 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label11 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Label12 control.
     '''</summary>
@@ -210,4 +156,22 @@ Partial Public Class Apply
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label12 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Address control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Address As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''TextBox14 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TextBox14 As Global.System.Web.UI.WebControls.TextBox
 End Class
